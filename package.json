@@ -1,0 +1,28 @@
+{
+  "name": "codeceptjs-playwright-with-mocking",
+  "version": "1.0.0",
+  "description": "CodeceptJS Playwright framework with mocking support",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps",
+    "test:ci": "npx codeceptjs run --steps --profile ci",
+    "lint": "npx tslint -p ."
+  },
+  "author": "Richard Hendricksen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-typescript": "^7.15.4",
+    "chai": "^4.2.0",
+    "codeceptjs": "^2.6.1",
+    "playwright": "^1.3.0",
+    "ts-node": "^8.8.2",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@testomatio/reporter": "^0.3.13",
+    "playwright-chromium": "^1.14.1",
+    "puppeteer": "^3.0.1"
+  }
+}
